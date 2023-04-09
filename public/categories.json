@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "category_icon": "finance.png",
+      "category_name": "Finance",
+      "num_positions_available": 50
+    },
+    {
+      "id": 2,
+      "category_icon": "Technology.png",
+      "category_name": "Technology",
+      "num_positions_available": 100
+    },
+    {
+      "id": 3,
+      "category_icon": "socialal.png",
+      "category_name": "Social Media Marketing",
+      "num_positions_available": 25
+    },
+    {
+      "id": 4,
+      "category_icon": "Human.png",
+      "category_name": "Human Resources",
+      "num_positions_available": 30
+    }
+  ]
+  
+  
+
+

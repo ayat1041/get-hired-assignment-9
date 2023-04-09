@@ -11,28 +11,28 @@ const Footer = () => {
                         <img src="social.png" alt="" />
                     </div>
                 </div>
-                <div class="footer_info_rest">
+                <div className="footer_info_rest">
                     <h2>Company</h2>
                     <p>About Us</p>
                     <p>Work</p>
                     <p>Latest News</p>
                     <p>Careers</p>
                 </div>
-                <div class="footer_info_rest">
+                <div className="footer_info_rest">
                     <h2>Product</h2>
                     <p>Prototype</p>
                     <p>Plans & Pricing</p>
                     <p>Customers</p>
                     <p>Integrations</p>
                 </div>
-                <div class="footer_info_rest">
+                <div className="footer_info_rest">
                     <h2>Support</h2>
                     <p>Help Desk</p>
                     <p>Sales</p>
                     <p>Become a Partner</p>
                     <p>Developers</p>
                 </div>
-                <div class="footer_info_rest">
+                <div className="footer_info_rest">
                     <h2>Contact</h2>
                     <p>524 Broadway, NYC</p>
                     <p>+1 777 - 978 - 5570</p>

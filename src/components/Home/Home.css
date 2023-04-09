@@ -1,1 +1,36 @@
+.job_category_list {
+    padding-top: 100px;
+    margin: 0 auto;
+    padding-bottom: 26px;
+}
 
+.job_category_list h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 66px;
+    color: #1A1919;
+    text-align: center;
+}
+
+.job_category_list p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #757575;
+}
+
+.categories_container{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 200px;
+}
+@media only screen and (max-width: 576px) {
+    .categories_container{
+        padding-inline: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+}
