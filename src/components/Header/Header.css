@@ -1,0 +1,52 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 60px;
+    padding-inline: 200px;
+}
+.links{
+
+}
+nav a{
+    text-decoration: none;
+    padding-inline: 21px;
+    color: #757575;
+    font-size: 16px;
+}
+nav img{
+    width: 172px;
+}
+nav button{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #ffffff;
+    padding-inline: 22px;
+    padding-block: 16px ;
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+@media only screen and (max-width: 576px) {
+    nav img{
+        width: 100px;
+    }
+    nav{
+        padding-inline: 10px;
+    }
+    .links{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    nav a{
+        padding-block: 6px;
+    }
+    nav button{
+        font-size: 14px;
+        font-weight: 400;
+        padding: 8px 8px;
+    }
+}
