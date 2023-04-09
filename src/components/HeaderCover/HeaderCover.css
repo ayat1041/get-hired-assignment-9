@@ -1,0 +1,12 @@
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 200px;
+}
+.banner__info{
+    padding-left: 80px;
+}
+.banner img{
+    width: 540px;
+}
