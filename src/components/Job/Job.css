@@ -7,7 +7,10 @@
     /* margin: 20px; */
     padding: 36px;
 }
-
+.job_container a{
+    text-decoration: none;
+    color: inherit;
+}
 .job_container img {
     height: 35px;
 }

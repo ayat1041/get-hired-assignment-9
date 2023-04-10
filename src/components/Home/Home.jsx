@@ -1,23 +1,31 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import "./Home.css";
 import HeaderCover from "../HeaderCover/HeaderCover";
 import { useLoaderData } from "react-router-dom";
 import Category from "../Category/Category";
-import { JobsContext } from "../Root/Root";
+// import { JobsContext } from "../Root/Root";
 import Job from "../Job/Job";
 const Home = () => {
-  const categories = useLoaderData();
-  const jobsData = useContext(JobsContext);
+//   const categories = useLoaderData();
+  const [jobsData, setJobs] = useState([]);
+  const [categories,setCategories] = useState([]);
+  useEffect(() => {
+    fetch("jobs.json")
+      .then((res) => res.json())
+      .then((data) => setJobs(data));
+    fetch("categories.json")
+        .then((res) => res.json())
+        .then((data) => setCategories(data))
+  }, []);
+
   const [all, setAll] = useState(false);
   let jobArr = [...jobsData];
-  if( all === false){
-    jobArr = jobArr.splice(0,4);
+  if (all === false) {
+    jobArr = jobArr.splice(0, 4);
   }
   const seeAllJobs = () => {
     setAll(!all);
   };
-  console.log(all);
-  const [jobs, setJobs] = useState([]);
   return (
     <div className="Home_jobs_container">
       <HeaderCover></HeaderCover>
@@ -41,15 +49,12 @@ const Home = () => {
         </p>
       </div>
       <div className="jobs_container_home">
-        {   
-                jobArr.map((job) => (
-                <Job key={job.id} job={job}></Job>
-            
-        ))
-        }
+        {jobArr?.map((job) => (
+          <Job key={job.id} job={job}></Job>
+        ))}
       </div>
       <button onClick={seeAllJobs} className="see_all_jobs">
-        {all ? 'Show less' : "See All Jobs"}
+        {all ? "Show less" : "See All Jobs"}
       </button>
     </div>
   );

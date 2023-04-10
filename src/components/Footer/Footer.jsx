@@ -5,10 +5,10 @@ const Footer = () => {
         <div className="footer_holder">
             <div className="footer__container">
                 <div className="footer_info">
-                    <img src="logo.svg" alt="" />
+                    <img src="/logo.svg" alt="" />
                     <p>There are many variations of passages<br></br>of Lorem Ipsum , but the majority have<br></br>suffered alteration in some form.</p>
                     <div>
-                        <img src="social.png" alt="" />
+                        <img src="/social.png" alt="" />
                     </div>
                 </div>
                 <div className="footer_info_rest">

@@ -5,7 +5,7 @@ import ActiveLink from '../ActiveLink/ActiveLink';
 const Header = () => {
     return (
         <nav>
-            <img src="logo.png" alt="" />
+            <img src="/logo.png" alt="" />
             <div className="links">
                 <ActiveLink to="/" title="Home"></ActiveLink>
                 <ActiveLink to="/statistics" title="Statistics"></ActiveLink>
