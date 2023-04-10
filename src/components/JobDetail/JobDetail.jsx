@@ -1,6 +1,7 @@
 import { useLoaderData, useParams } from "react-router-dom";
 import "./JobDetail.css";
 import React, { useContext, useEffect, useState } from "react";
+import HeaderCoverRest from "../HeaderCoverRest/HeaderCoverRest";
 // import { JobsContext } from "../Root/Root";
 
 const JobDetail = () => {
@@ -12,6 +13,8 @@ const JobDetail = () => {
 //   const currentJobs = jobsData.map(job => console.log(typeof job.id));
 
   return (
+    <div className="job-details-page">
+        <HeaderCoverRest>Job Details</HeaderCoverRest>
     <div className="job-details-container">
         <div className="job-details-left">
             <h1><span>Job Description: </span>{job_description}</h1>
@@ -33,6 +36,7 @@ const JobDetail = () => {
             </div>
             <button>Apply Now</button>
         </div>
+    </div>
     </div>
   );
 };
