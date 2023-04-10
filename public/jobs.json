@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "company_logo": "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png",
+    "job_title": "Software Engineer",
+    "company_name": "Google",
+    "remote_or_onsite": "Remote",
+    "location": "Mountain View, CA",
+    "fulltime_or_parttime": "Fulltime",
+    "salary": "$120,000 - $150,000",
+    "job_description": "We are looking for a talented Software Engineer to join our innovative team...",
+    "job_responsibility": "Design, develop, and maintain cutting-edge software applications...",
+    "educational_requirements": "Bachelor's degree in Computer Science or related field",
+    "experiences": "3+ years of experience in software development",
+    "contact_information": {
+      "phone": "123-456-7890",
+      "email": "jobs@google.com"
+    }
+  },
+  {
+    "id": 2,
+    "company_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Facebook_New_Logo_%282015%29.svg/640px-Facebook_New_Logo_%282015%29.svg.png",
+    "job_title": "Frontend Developer",
+    "company_name": "Facebook",
+    "remote_or_onsite": "Onsite",
+    "location": "Menlo Park, CA",
+    "fulltime_or_parttime": "Fulltime",
+    "salary": "$110,000 - $130,000",
+    "job_description": "We are seeking a skilled Frontend Developer to work on our cutting-edge web projects...",
+    "job_responsibility": "Develop and maintain frontend web applications...",
+    "educational_requirements": "Bachelor's degree in Computer Science or related field",
+    "experiences": "3+ years of experience in frontend development",
+    "contact_information": {
+      "phone": "123-456-7890",
+      "email": "jobs@facebook.com"
+    }
+  },
+  {
+    "id": 3,
+    "company_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Intel_logo_%282020%2C_light_blue%29.svg/640px-Intel_logo_%282020%2C_light_blue%29.svg.png",
+    "job_title": "Machine Learning Engineer",
+    "company_name": "Intel",
+    "remote_or_onsite": "Remote",
+    "location": "Santa Clara, CA",
+    "fulltime_or_parttime": "Fulltime",
+    "salary": "$130,000 - $150,000",
+    "job_description": "We are looking for a highly skilled Machine Learning Engineer to join our advanced analytics team...",
+    "job_responsibility": "Develop and implement machine learning algorithms...",
+    "educational_requirements": "Master's or PhD in Computer Science or related field",
+    "experiences": "5+ years of experience in machine learning",
+    "contact_information": {
+      "phone": "123-456-7890",
+      "email": "jobs@intel.com"
+    }
+  },
+  {
+    "id": 4,
+    "company_logo": "https://www.apple.com/ac/globalnav/4/en_US/images/globalnav/apple/image_large.svg",
+    "job_title": "iOS Developer",
+    "company_name": "Apple",
+    "remote_or_onsite": "Onsite",
+    "location": "Cupertino, CA",
+    "fulltime_or_parttime": "Fulltime",
+    "salary": "$120,000 - $140,000",
+    "job_description": "We are seeking an experienced iOS Developer to join our mobile development team...",
+    "job_responsibility": "Design and develop iOS applications...",
+    "educational_requirements": "Bachelor's degree in Computer Science or related field",
+    "experiences": "3+ years of experience in iOS development",
+    "contact_information": {
+      "phone": "123-456-7890",
+      "email": "jobs@apple.com"
+    }
+  },
+  {
+    "id": 5,
+    "company_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Microsoft_logo_%282012%29.svg/512px-Microsoft_logo_%282012%29.svg.png?20230221160917",
+    "job_title": "Cloud Solutions Architect",
+    "company_name": "Microsoft",
+    "remote_or_onsite": "Remote",
+    "location": "Redmond, WA",
+    "fulltime_or_parttime": "Fulltime",
+    "salary": "$130,000 - $150,000",
+    "job_description": "We are looking for a skilled Cloud Solutions Architect to join our Azure team...",
+    "job_responsibility": "Design and implement cloud solutions for enterprise customers...",
+    "educational_requirements": "Bachelor's degree in Computer Science or related field",
+    "experiences": "5+ years of experience in cloud architecture",
+    "contact_information": {
+      "phone": "123-456-7890",
+      "email": "jobs@microsoft.com"
+    }
+  },
+  {
+    "id": 6,
+    "company_logo": "https://a.slack-edge.com/a533fe3/marketing/img/media-kit/img-logos-alt.png",
+    "job_title": "Backend Developer",
+    "company_name": "Slack",
+    "remote_or_onsite": "Remote",
+    "location": "San Francisco, CA",
+    "fulltime_or_parttime": "Fulltime",
+    "salary": "$110,000 - $130,000",
+    "job_description": "We are seeking a talented Backend Developer to join our collaborative team...",
+    "job_responsibility": "Develop and maintain scalable backend systems...",
+    "educational_requirements": "Bachelor's degree in Computer Science or related field",
+    "experiences": "3+ years of experience in backend development",
+    "contact_information": {
+      "phone": "123-456-7890",
+      "email": "jobs@slack.com"
+    }
+  },
+  {
+    "id": 7,
+    "company_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/220px-Netflix_2015_logo.svg.png",
+    "job_title": "Data Scientist",
+    "company_name": "Netflix",
+    "remote_or_onsite": "Onsite",
+    "location": "Los Gatos, CA",
+    "fulltime_or_parttime": "Fulltime",
+    "salary": "$120,000 - $140,000",
+    "job_description": "We are looking for a skilled Data Scientist to join our recommendation algorithms team...",
+    "job_responsibility": "Develop and implement machine learning models for personalized content recommendations...",
+    "educational_requirements": "Master's or PhD in Computer Science, Statistics, or related field",
+    "experiences": "3+ years of experience in data science",
+    "contact_information": {
+      "phone": "123-456-7890",
+      "email": "jobs@netflix.com"
+    }
+  },
+  {
+    "id": 8,
+    "company_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/IBM_logo.svg/150px-IBM_logo.svg.png",
+    "job_title": "Data Engineer",
+    "company_name": "IBM",
+    "remote_or_onsite": "Remote",
+    "location": "Armonk, NY",
+    "fulltime_or_parttime": "Fulltime",
+    "salary": "$100,000 - $120,000",
+    "job_description": "We are seeking a skilled Data Engineer to join our data analytics team...",
+    "job_responsibility": "Design, develop, and maintain data pipelines and ETL processes...",
+    "educational_requirements": "Bachelor's degree in Computer Science or related field",
+    "experiences": "3+ years of experience in data engineering",
+    "contact_information": {
+      "phone": "123-456-7890",
+      "email": "jobs@ibm.com"
+    }
+  },
+  {
+    "id": 9,
+    "company_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Oracle_logo.svg/512px-Oracle_logo.svg.png?20210811183004",
+    "job_title": "Java Developer",
+    "company_name": "Oracle",
+    "remote_or_onsite": "Remote",
+    "location": "Redwood City, CA",
+    "fulltime_or_parttime": "Fulltime",
+    "salary": "$90,000 - $110,000",
+    "job_description": "We are looking for a skilled Java Developer to join our Java Development team...",
+    "job_responsibility": "Design, develop, and maintain Java applications...",
+    "educational_requirements": "Bachelor's degree in Computer Science or related field",
+    "experiences": "2+ years of experience in Java development",
+    "contact_information": {
+      "phone": "123-456-7890",
+      "email": "jobs@oracle.com"
+    }
+  },
+  {
+    "id": 10,
+    "company_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Adobe_Corporate_logo.svg/512px-Adobe_Corporate_logo.svg.png?20220820114255",
+    "job_title": "UI/UX Designer",
+    "company_name": "Adobe",
+    "remote_or_onsite": "Onsite",
+    "location": "San Jose, CA",
+    "fulltime_or_parttime": "Fulltime",
+    "salary": "$80,000 - $100,000",
+    "job_description": "We are seeking a talented UI/UX Designer to create innovative and user-friendly interfaces...",
+    "job_responsibility": "Design and prototype user interfaces for web and mobile applications...",
+    "educational_requirements": "Bachelor's degree in Design, HCI, or related field",
+    "experiences": "3+ years of experience in UI/UX design",
+    "contact_information": {
+      "phone": "123-456-7890",
+      "email": "jobs@adobe.com"
+    }
+  }
+]
