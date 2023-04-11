@@ -1,8 +1,57 @@
-.applied_job_page_container{
+.applied_job_page_container {
     padding-inline: 200px;
+    position: relative;
 }
+
+.applied_job_page_container .filter_by {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 30px;
+    position: relative;
+
+}
+
+.applied_job_page_container .filter_by .filter {
+    background: #F4F4F4;
+    border-radius: 8px;
+    padding: 18px;
+    width: fit-content;
+    cursor: pointer;
+    box-shadow: 0px 1px 2px black;
+}
+
+.remote_onsite {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-items: center;
+    font-size: 14px;
+    margin-right: 16px;
+    position: absolute;
+    bottom: -140px;
+    background-color: rgb(150, 150, 150);
+    border-radius: 6px;
+    box-shadow: 0px 1px 2px black;
+}
+.remote_onsite hr{
+    width: 80%;
+    border: 1px solid rgb(165, 165, 165);
+}
+.remote_onsite a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 800;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.applied_job_page_container .filter_by .filter span {
+    transform: rotate(160deg);
+    color: blue;
+}
+
 @media only screen and (max-width: 576px) {
-    .applied_job_page_container{
+    .applied_job_page_container {
         padding-inline: 8px;
     }
 }
