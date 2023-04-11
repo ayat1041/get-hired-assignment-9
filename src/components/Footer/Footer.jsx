@@ -40,8 +40,8 @@ const Footer = () => {
             </div>
             <hr></hr>
             <div className="footer_last">
-                <p>@2023 CareerHub All Rights Reserved</p>
-                <p>Powered by <span>CareerHub</span></p>
+                <p>@2023 GetHired. All Rights Reserved</p>
+                <p>Powered by <span>GetHired.</span></p>
             </div>
             </div>
     );
