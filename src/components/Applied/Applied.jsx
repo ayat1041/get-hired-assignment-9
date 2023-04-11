@@ -3,8 +3,13 @@ import AppliedJobs from "../AppliedJobs/AppliedJobs";
 import Job from "../Job/Job";
 import "./Applied.css";
 import React, { useEffect, useState } from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee, faLandmark, faLocation, faLocationDot } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faCoffee,
+  faLandmark,
+  faLocation,
+  faLocationDot,
+} from "@fortawesome/free-solid-svg-icons";
 
 const Applied = ({ id, data, type }) => {
   const job = data.find((item) => item.id == id);
@@ -33,7 +38,9 @@ const Applied = ({ id, data, type }) => {
             <small>{fulltime_or_parttime}</small>
           </div>
           <div className="location_salary">
-            <span><FontAwesomeIcon icon={faLocationDot} /> {location}</span>
+            <span>
+              <FontAwesomeIcon icon={faLocationDot} /> {location}
+            </span>
             <span>$ Salary : {salary}</span>
           </div>
         </div>
@@ -58,8 +65,10 @@ const Applied = ({ id, data, type }) => {
               <small>{fulltime_or_parttime}</small>
             </div>
             <div className="location_salary">
-              <span>{location}</span>
-              <span>{salary}</span>
+              <span>
+                <FontAwesomeIcon icon={faLocationDot} /> {location}
+              </span>
+              <span>$ Salary : {salary}</span>
             </div>
           </div>
           <button>
@@ -84,8 +93,10 @@ const Applied = ({ id, data, type }) => {
               <small>{fulltime_or_parttime}</small>
             </div>
             <div className="location_salary">
-              <span>{location}</span>
-              <span>{salary}</span>
+              <span>
+                <FontAwesomeIcon icon={faLocationDot} /> {location}
+              </span>
+              <span>$ Salary : {salary}</span>
             </div>
           </div>
           <button>

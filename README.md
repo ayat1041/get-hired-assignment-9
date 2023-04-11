@@ -6,4 +6,4 @@ FEATURES -
 * No Reload on the whole site.
 * Detailed Information.
 
-[SITE LINK](htttps://www.google.com)
+[SITE LINK](https://earnest-nougat-18242a.netlify.app/)
