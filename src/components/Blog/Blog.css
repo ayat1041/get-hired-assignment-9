@@ -1,0 +1,25 @@
+.blog_container{
+    margin-inline: 180px;
+    padding-bottom: 60px;
+    background-color: rgba(3, 3, 3, 0.055);
+    border-radius: 8px;
+    padding-inline: 20px;
+    padding-top: 30px;
+}
+.blog_container h3{
+    color: rgb(0, 62, 179);
+    font-weight: 800;
+}
+.blog_container h4 b{
+    color: rgb(0, 62, 179);
+    font-weight: 800;
+}
+.blog_container h4{
+    color: rgb(77, 77, 77);
+}
+@media only screen and (max-width: 576px) {
+    .blog_container{
+        margin-inline: 14px;
+        text-align: center;
+    }
+}
