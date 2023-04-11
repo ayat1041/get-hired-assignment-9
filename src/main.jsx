@@ -12,6 +12,7 @@ import Statistics from './components/Statistics/Statistics';
 import AppliedJobs from './components/AppliedJobs/AppliedJobs';
 import Blog from './components/Blog/Blog';
 import JobDetail from './components/JobDetail/JobDetail';
+import ErrorPage from './components/ErrorPage/ErrorPage';
 
 const router = createBrowserRouter([
   {
@@ -46,7 +47,7 @@ const router = createBrowserRouter([
   },
   {
     path: "*",
-    element: <h2>Easy there SPARKY!<br></br> You are out of the map!</h2>
+    element: <ErrorPage></ErrorPage>
   }
 ]);
 
