@@ -2,6 +2,7 @@ import { useLoaderData, useParams } from "react-router-dom";
 import "./JobDetail.css";
 import React, { useContext, useEffect, useState } from "react";
 import HeaderCoverRest from "../HeaderCoverRest/HeaderCoverRest";
+import { addToLocal } from "../../utilities/addToLocal";
 // import { JobsContext } from "../Root/Root";
 
 const JobDetail = () => {
@@ -34,7 +35,7 @@ const JobDetail = () => {
             <h3><span>Email:</span> {contact_information.email}</h3>
             <h3><span>Address:</span> {location}</h3>
             </div>
-            <button>Apply Now</button>
+            <button onClick={()=> addToLocal(id) }>Apply Now</button>
         </div>
     </div>
     </div>

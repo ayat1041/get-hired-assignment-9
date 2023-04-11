@@ -1,0 +1,8 @@
+.applied_job_page_container{
+    padding-inline: 200px;
+}
+@media only screen and (max-width: 576px) {
+    .applied_job_page_container{
+        padding-inline: 8px;
+    }
+}
