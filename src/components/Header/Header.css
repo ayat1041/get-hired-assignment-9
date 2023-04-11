@@ -16,6 +16,7 @@ nav a{
 }
 nav img{
     width: 172px;
+    filter: drop-shadow(0px 1px 1px);
 }
 nav button{
     font-size: 20px;

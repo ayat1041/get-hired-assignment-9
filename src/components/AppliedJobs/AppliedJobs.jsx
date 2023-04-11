@@ -5,6 +5,9 @@ import "./AppliedJobs.css";
 import React, { useEffect, useState } from "react";
 import Job from "../Job/Job";
 import Applied from "../Applied/Applied";
+import ReactDOM from 'react-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faChevronDown, faCoffee } from '@fortawesome/free-solid-svg-icons'
 
 const AppliedJobs = () => {
   const [local, setLocal] = useState([]);
@@ -29,7 +32,7 @@ const AppliedJobs = () => {
       <div className="applied_job_page_container">
         <div className="filter_by">
           <div onClick={filterBy} className="filter">
-            Filter By{" "}
+            Filter By <FontAwesomeIcon icon={faChevronDown} />
           </div>
           {filter && (
             <div className="remote_onsite">
