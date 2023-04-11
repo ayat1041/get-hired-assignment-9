@@ -3,8 +3,8 @@ import "./Home.css";
 import HeaderCover from "../HeaderCover/HeaderCover";
 import { useLoaderData } from "react-router-dom";
 import Category from "../Category/Category";
-// import { JobsContext } from "../Root/Root";
 import Job from "../Job/Job";
+
 const Home = () => {
 //   const categories = useLoaderData();
   const [jobsData, setJobs] = useState([]);

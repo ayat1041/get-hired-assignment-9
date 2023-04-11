@@ -1,0 +1,19 @@
+@media only screen and (max-width: 576px) {
+    .chart {
+        padding-bottom: 200px;
+    }
+
+    .recharts-legend-wrapper {
+        transform: translate(0%, 0%) !important;
+        margin-top: 150px;
+        background-color: rgba(0, 0, 0, 0.075);
+        padding: 8px !important;
+        border-radius: 8px;
+        font-weight: 600;
+        font-size: 12px;
+    }
+
+    .recharts-wrapper {
+        margin-left: 200px;
+    }
+}
